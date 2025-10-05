@@ -5,7 +5,7 @@ public class age {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter age:");
         int no = sc.nextInt();
-        if (no>=118){
+        if (no>=18){
             System.out.println("You are allowed to drive");
         }
         else{
