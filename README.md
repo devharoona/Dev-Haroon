@@ -23,7 +23,7 @@
 
 ## The Core Building Blocks
 Every program, from a simple calculator to a complex game, is built using these fundamental concepts.
----
+--
 ### 1. Variables
 - What they are: A variable is simply a container or a box to store information. You give the box a name (a label) so you can find it and use the information inside it later.
 
