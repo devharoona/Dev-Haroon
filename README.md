@@ -36,6 +36,7 @@ myAge = 21
 
 // Create a variable to store a name
 myName = "Rehan"
+
 ---
 ### 2. Data Types
 What they are: This is the type of information you are storing in your variable box. You can't put a liquid in a box meant for books, right?
@@ -52,6 +53,7 @@ Integer: Whole numbers (10, -5, 1000).
 Float: Numbers with decimals (98.6, 3.14).
 
 Boolean (Bool): Represents TRUE or FALSE. Super important for making decisions.
+
 ---
 ### 3. Operators
 What they are: These are symbols that perform operations on your variables and values.
@@ -63,6 +65,7 @@ Arithmetic: + (add), - (subtract), * (multiply), / (divide).
 Comparison: == (is equal to), != (is not equal to), > (greater than), < (less than). These always give a Boolean (TRUE or FALSE) answer.
 
 Logical: AND, OR, NOT. Used to combine TRUE/FALSE conditions.
+
 ---
 ### 4. Control Structures (Making Decisions & Repeating Actions)
 - This is where your program starts getting smart. It's how you control the "flow" of the recipe.
@@ -100,6 +103,7 @@ while (bowlIsFull) {
   eatOneSpoon()
   // eventually, the bowl will become empty and bowlIsFull will be FALSE
 }
+
 ---
 ### 5. Functions
 - What they are: A block of organized, reusable code that is used to perform a single, related action.
