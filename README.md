@@ -23,7 +23,8 @@
 
 ## The Core Building Blocks
 Every program, from a simple calculator to a complex game, is built using these fundamental concepts.
---
+
+---
 ### 1. Variables
 - What they are: A variable is simply a container or a box to store information. You give the box a name (a label) so you can find it and use the information inside it later.
 
@@ -31,19 +32,21 @@ Every program, from a simple calculator to a complex game, is built using these 
 
 - Example (in pseudocode):
 
-// Create a variable named 'myAge' and store the number 21 in it
-myAge = 21
+Create a variable named 'myAge' and store the number 21 in it
+'''myAge = 21
 
 // Create a variable to store a name
 myName = "Rehan"
+'''
 
---
+---
 ### 2. Data Types
 What they are: This is the type of information you are storing in your variable box. You can't put a liquid in a box meant for books, right?
 
-Common Types:
+##### Common Types:
 
 Text (String): Any text data. You almost always put it inside quotes (" " or ' ').
+'''
 "Hello Hyderabad", "12345" (this is text, not a number!)
 
 Numbers (Integer, Float):
@@ -53,20 +56,22 @@ Integer: Whole numbers (10, -5, 1000).
 Float: Numbers with decimals (98.6, 3.14).
 
 Boolean (Bool): Represents TRUE or FALSE. Super important for making decisions.
+'''
 
---
+---
 ### 3. Operators
 What they are: These are symbols that perform operations on your variables and values.
 
-Common Types:
-
+##### Common Types:
+'''
 Arithmetic: + (add), - (subtract), * (multiply), / (divide).
 
 Comparison: == (is equal to), != (is not equal to), > (greater than), < (less than). These always give a Boolean (TRUE or FALSE) answer.
 
 Logical: AND, OR, NOT. Used to combine TRUE/FALSE conditions.
+'''
 
---
+---
 ### 4. Control Structures (Making Decisions & Repeating Actions)
 - This is where your program starts getting smart. It's how you control the "flow" of the recipe.
 
@@ -77,13 +82,13 @@ What they are: They let your program make choices. "If this condition is true, d
 
    Example:
 
-weather = "raining"
+'''weather = "raining"
 
 if (weather == "raining") {
   print("Take an umbrella!")
 } else {
   print("Wear sunglasses!")
-}
+}'''
 - b. Loops (for / while)
 What they are: Loops are used to repeat a block of code multiple times without having to write it again and again.
 
@@ -91,7 +96,7 @@ What they are: Loops are used to repeat a block of code multiple times without h
 
 Example (for loop - repeats a fixed number of times):
 
-// Print numbers from 1 to 5
+'''// Print numbers from 1 to 5
 for (number from 1 to 5) {
   print(number)
 }
@@ -103,8 +108,8 @@ while (bowlIsFull) {
   eatOneSpoon()
   // eventually, the bowl will become empty and bowlIsFull will be FALSE
 }
-
---
+'''
+---
 ### 5. Functions
 - What they are: A block of organized, reusable code that is used to perform a single, related action.
 
@@ -112,7 +117,7 @@ while (bowlIsFull) {
 
 Example:
 
-// Defining the function (the recipe)
+'''// Defining the function (the recipe)
 function greetUser(name) {
   print("Hello, " + name + "! How are you?")
 }
@@ -120,8 +125,8 @@ function greetUser(name) {
 // Calling the function (using the recipe)
 greetUser("Mariya")  // Output: Hello, Mariya! How are you?
 greetUser("Aamir")   // Output: Hello, Aamir! How are you?
-
---
+'''
+---
 
 ### Putting It All Together
 -Every single app, website, or game is just a very complex combination of these simple building blocks:
@@ -168,4 +173,6 @@ greetUser("Aamir")   // Output: Hello, Aamir! How are you?
 
 
 Thank you for visiting
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![npm version](https://img.shields.io/npm/v/react.svg)
 </p>
